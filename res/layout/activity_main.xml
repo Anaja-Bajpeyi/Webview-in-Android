@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:text="Twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn5"
+        android:drawableLeft="@drawable/twitter"
+        android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:drawableLeft="@drawable/fb"
+        android:background="#ffffff"/>
+
+    <Button
+        android:text="Amazon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:drawableLeft="@drawable/amazon"
+        android:background="#ffffff"/>
+
+    <Button
+        android:text="Netflix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:drawableLeft="@drawable/netflix"
+        android:background="#ffffff"/>
+
+    <Button
+        android:text="Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:drawableLeft="@drawable/google"
+        android:background="#ffffff"/>
+
+
+
+</LinearLayout>
